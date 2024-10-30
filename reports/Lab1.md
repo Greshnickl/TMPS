@@ -23,12 +23,12 @@ The Singleton pattern ensures that only one instance of OrderProcessor exists. T
 
 ![Alt text](/images/singleton.png)
 
-**Factory Method**
+### **Factory Method**
 The Factory Method pattern is used to create various Product subclasses (like Electronics, Clothing, etc.) without specifying the exact class of each product in the client code. This makes it easy to add new product types in the future.
 
 ![Alt text](/images/factory.png)
 
-**Builder Method**
+### **Builder Method**
 The Builder pattern is used for constructing an Order object. This pattern is ideal for complex objects with multiple fields, allowing the Order to be created step-by-step while managing optional fields or different configurations.
 
 ![Alt text](/images/builder.png)
@@ -37,7 +37,7 @@ The Builder pattern is used for constructing an Order object. This pattern is id
 
 ---
 
-**Classes and Code Explanation**
+### **Classes and Code Explanation**
 
 - Product: Abstract base class for all product types. Each subclass (e.g., Electronics, Clothing) specifies unique properties and behavior.
 - ProductFactory: Implements the Factory Method pattern, allowing for the creation of different Product instances based on type.
