@@ -61,7 +61,7 @@ Responsibility: Contains the main method to demonstrate the functionality of the
 
 - - Each class has a single responsibility:
 - - The Book class manages book attributes.
-- -The PlainTextReportGenerator and JsonReportGenerator classes focus solely on report generation.
+- - The PlainTextReportGenerator and JsonReportGenerator classes focus solely on report generation.
 
 - Open/Closed Principle (OCP):
 
