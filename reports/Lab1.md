@@ -18,7 +18,8 @@
 --- 
 
 ### **Design Patterns Used:**
-**Singleton**
+
+### **Singleton**
 The Singleton pattern ensures that only one instance of OrderProcessor exists. This instance is responsible for processing all orders, maintaining consistency, and controlling access.
 
 ![Alt text](/images/singleton.png)
